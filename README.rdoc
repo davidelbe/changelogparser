@@ -8,8 +8,8 @@ A ruby gem for creating nice changelogs based on your git commits.
 
 == Usage
 
-Just run `changelog` in your git directory to print out a changelog
-for the last two versions in your gem.
+Just run `changelog` or `changelog true` in your git directory to print
+out a changelog for the last two versions in your gem.
 
 == Contributing to changelog_parser
 
