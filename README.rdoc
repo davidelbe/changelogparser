@@ -1,9 +1,18 @@
-= changelogparser
+= changelog_parser
 
-Description goes here.
+A ruby gem for creating nice changelogs based on your git commits.
 
-== Contributing to changelogparser
- 
+== Installation
+
+`gem install changelog_parser`
+
+== Usage
+
+Just run `changelog` in your git directory to print out a changelog
+for the last two versions in your gem.
+
+== Contributing to changelog_parser
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
@@ -16,4 +25,3 @@ Description goes here.
 
 Copyright (c) 2014 David Elbe. See LICENSE.txt for
 further details.
-
