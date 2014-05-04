@@ -52,7 +52,7 @@ class ChangelogParser
     commit_message    = commit_parts[1].to_s
     changelog_message = commit_message.scan(/changelog:\s(.*)/i).flatten.first
 
-    if changelog_message.present?
+    if changelog_message
       puts "   * #{changelog_message.strip} - #{author}"
     else
       puts "   * #{commit_message.strip} - #{author}" if @all
