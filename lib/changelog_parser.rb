@@ -1,5 +1,5 @@
 class ChangelogParser
-  def initialize(all: false)
+  def initialize(all = false)
     @all = all
     read_log
     parse_lines
