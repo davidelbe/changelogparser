@@ -13,15 +13,13 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "changelogparser"
+  gem.name = "changelog_parser"
   gem.homepage = "http://github.com/davidelbe/changelogparser"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "david@standout.se"
+  gem.summary = "A changelog parser/generator based on your git commits"
+  gem.description = "Use your git commit messages to create a changelog for your project"
+  gem.email = "david@elbe.me"
   gem.authors = ["David Elbe"]
-  # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
 
@@ -47,7 +45,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "changelogparser #{version}"
+  rdoc.title = "changelog_parser #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
