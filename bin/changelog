@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 require 'changelog_parser'
-exit ChangelogParser.new(*ARGV)
+ChangelogParser.new(*ARGV)
+exit 0

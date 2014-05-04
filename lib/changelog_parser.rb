@@ -3,7 +3,6 @@ class ChangelogParser
     @all = all
     read_log
     parse_lines
-    return 0
   end
 
   def commit_parts_divider
