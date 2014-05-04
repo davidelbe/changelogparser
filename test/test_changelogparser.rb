@@ -1,7 +1,8 @@
 require 'helper'
 
-class TestChangelogparser < MiniTest::Unit::TestCase
-  def test_something_for_real
-    flunk "hey buddy, you should probably rename this file and start testing for real"
-  end
+describe ChangelogParser do
+
+  # TODO: add tests
+  # Just ported a working Rake task to a gem
+
 end
