@@ -39,7 +39,7 @@ class ChangelogParser
   end
 
   def is_version_bump?(line)
-    line =~ /Version bump to/
+    line =~ /Version bump to/ ? true : false
   end
 
   def print_version_bump(line)

@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler'
+require 'minitest'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -18,4 +19,4 @@ require 'changelog_parser'
 class MiniTest::Unit::TestCase
 end
 
-MiniTest::Unit.autorun
+MiniTest.autorun
